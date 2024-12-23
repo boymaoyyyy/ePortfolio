@@ -7,11 +7,10 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Header -->
     <header>
         <nav>
-            <div class="logo">Henrich Carpio</div>
-            <ul class="nav-links">
+            <div class="logo animate-slide-down">Henrich Carpio</div>
+            <ul class="nav-links animate-slide-down">
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -19,53 +18,45 @@
         </nav>
     </header>
 
-    <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
-            <div class="hero-image">
-                <!-- Using a colored div as placeholder until you add your photo -->
+            <div class="hero-image animate-fade-in">
                 <div class="profile-placeholder"></div>
             </div>
-            <div class="hero-text">
+            <div class="hero-text animate-slide-up">
                 <h1>Hello, I'm Henrich</h1>
                 <div class="info-list">
                     <p>📅 Born July 12, 2003</p>
                     <p>👤 Single</p>
                     <p>💻 Software Developer</p>
                     <p>🏃‍♂️ Sports Enthusiast</p>
+                    <p>📞 0935 9228598</p>
+                    <p>📧 henrichcarps@gmail.com</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <h2>About Me</h2>
-        <p>I'm a passionate software developer who loves sports. I focus on creating efficient and user-friendly applications.</p>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-grid"></div>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <h2>My Projects</h2>
-        <div class="project-grid">
-            <!-- Project cards will be inserted here by JavaScript -->
-        </div>
-    </section>
-
-    <!-- Project Modal -->
     <div id="projectModal" class="modal">
         <div class="modal-content">
             <span class="close-button">&times;</span>
-            <h3 id="modalTitle"></h3>
-            <div id="modalImage" class="project-placeholder"></div>
+            <h2 id="modalTitle"></h2>
             <p id="modalDescription"></p>
-            <a id="modalLink" href="" target="_blank" class="github-link">View on GitHub</a>
+            <a id="modalLink" href="#" target="_blank">View on GitHub</a>
         </div>
     </div>
 
-    <!-- Contact Section -->
     <section id="contact" class="contact">
         <h2>Contact Me</h2>
+        <div class="contact-info">
+            <p>📞 Phone: <a href="tel:+639359228598">0935 9228598</a></p>
+            <p>📧 Email: <a href="mailto:henrichcarps@gmail.com">henrichcarps@gmail.com</a></p>
+        </div>
         <form id="contactForm">
             <div class="form-group">
                 <label for="name">Name</label>
@@ -83,12 +74,15 @@
         </form>
     </section>
 
-    <!-- Footer -->
     <footer>
         <div class="social-links">
             <a href="#" target="_blank">GitHub</a>
             <a href="#" target="_blank">LinkedIn</a>
-            <a href="mailto:your@email.com">Email</a>
+            <a href="mailto:henrichcarps@gmail.com">Email</a>
+        </div>
+        <div class="contact-links">
+            <p>📞 <a href="tel:+639359228598">0935 9228598</a></p>
+            <p>📧 <a href="mailto:henrichcarps@gmail.com">henrichcarps@gmail.com</a></p>
         </div>
         <p>&copy; 2024 Henrich Carpio. All rights reserved.</p>
     </footer>
