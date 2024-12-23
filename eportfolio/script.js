@@ -3,17 +3,19 @@ const projects = [
     {
         title: "Inventory Management System",
         description: "A comprehensive inventory management solution developed to streamline stock tracking and business operations. Key features include real-time stock updates, low inventory alerts, product categorization, and detailed reporting capabilities. Built with a focus on user-friendly interface and efficient data management.",
-        github: "https://github.com/username/inventory-system"
+        
+        image: "images/inventory.jpg"
     },
     {
         title: "Interactive Python Game",
         description: "An engaging Python-based game that demonstrates object-oriented programming principles. Features include dynamic gameplay mechanics, score tracking, and interactive user interface. The game showcases my ability to implement game logic, handle user input, and create an entertaining user experience.",
-        github: "https://github.com/username/python-game"
+        
+        image: "images/pythongme.jpg"
     },
     {
         title: "Enhanced Dijkstra Algorithm Implementation",
         description: "An optimized version of Dijkstra's shortest path algorithm with additional features for route optimization. This implementation includes improvements such as path visualization, multiple waypoint support, and performance enhancements. Demonstrates strong algorithmic thinking and optimization skills.",
-        github: "https://github.com/username/enhanced-dijkstra"
+        image: "images/dijkstra.jpg"
     }
 ];
 
