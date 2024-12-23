@@ -1,19 +1,19 @@
 // Project data
 const projects = [
     {
-        title: "Project 1",
-        description: "Description of your first project. Add details about what technologies you used and what problems you solved.",
-        github: "https://github.com/username/project1"
+        title: "Inventory Management System",
+        description: "A comprehensive inventory management solution developed to streamline stock tracking and business operations. Key features include real-time stock updates, low inventory alerts, product categorization, and detailed reporting capabilities. Built with a focus on user-friendly interface and efficient data management.",
+        github: "https://github.com/username/inventory-system"
     },
     {
-        title: "Project 2",
-        description: "Description of your second project. Explain the challenges you faced and how you overcame them.",
-        github: "https://github.com/username/project2"
+        title: "Interactive Python Game",
+        description: "An engaging Python-based game that demonstrates object-oriented programming principles. Features include dynamic gameplay mechanics, score tracking, and interactive user interface. The game showcases my ability to implement game logic, handle user input, and create an entertaining user experience.",
+        github: "https://github.com/username/python-game"
     },
     {
-        title: "Project 3",
-        description: "Description of your third project. Highlight the key features and your role in development.",
-        github: "https://github.com/username/project3"
+        title: "Enhanced Dijkstra Algorithm Implementation",
+        description: "An optimized version of Dijkstra's shortest path algorithm with additional features for route optimization. This implementation includes improvements such as path visualization, multiple waypoint support, and performance enhancements. Demonstrates strong algorithmic thinking and optimization skills.",
+        github: "https://github.com/username/enhanced-dijkstra"
     }
 ];
 
@@ -69,20 +69,17 @@ const contactForm = document.getElementById('contactForm');
 contactForm.addEventListener('submit', function(e) {
     e.preventDefault();
     
-    // Get form values
     const name = document.getElementById('name').value;
     const email = document.getElementById('email').value;
     const message = document.getElementById('message').value;
     
-    // Here you would typically send this data to a server
     console.log('Form submitted:', { name, email, message });
     
-    // Reset form
     contactForm.reset();
     alert('Thank you for your message! I will get back to you soon.');
 });
 
-// Smooth scrolling for navigation links
+// Smooth scrolling
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
